@@ -1,4 +1,4 @@
-# User Profiles API
+# Randomized User Profiles API
 This project covers each stage of the data engineering pipeline, from data ingestion to processing to storage. 
 
 The project uses a robust tech stack that includes Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, and Cassandra while everything is containerized using Docker for ease of deployment and scalability:
