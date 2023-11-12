@@ -11,4 +11,5 @@ The project uses a robust tech stack that includes Apache Airflow, Python, Apach
 - **Cassandra:** Where the processed data is ultimately stored.
 
 
+
 **Resources:** Composed with aid from the tutorial ["Realtime Data Streaming"](https://www.youtube.com/watch?v=GqAcTrqKcrY) by Yusuf Ganiyu
