@@ -1,7 +1,7 @@
 # Randomized User Profiles API
 This project covers each stage of the data engineering pipeline, from data ingestion to processing to storage. 
 
-The project uses a robust tech stack that includes Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, and Cassandra while everything is containerized using Docker for ease of deployment and scalability:
+Technologies used for this project include Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, and Cassandra while everything is containerized using Docker:
 
 - **Data Source:** randomuser.me API was used to generate random user data for this data pipeline.
 - **Apache Airflow:** Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
@@ -10,6 +10,6 @@ The project uses a robust tech stack that includes Apache Airflow, Python, Apach
 - **Apache Spark:** For data processing with master and worker nodes.
 - **Cassandra:** Where the processed data is ultimately stored.
 
+To start this project, clone this respository, navigate to the project directory, and run the command 'docker compose up -d'.
 
-
-**Resources:** Composed with aid from the tutorial ["Realtime Data Streaming"](https://www.youtube.com/watch?v=GqAcTrqKcrY) by Yusuf Ganiyu
+**Resources:** Composed with aid from the tutorial ["Realtime Data Streaming"](https://www.youtube.com/watch?v=GqAcTrqKcrY) by Yusuf Ganiyu.
